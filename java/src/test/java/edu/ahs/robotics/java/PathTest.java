@@ -1,8 +1,11 @@
 package edu.ahs.robotics.java;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 public class PathTest {
+    @Test
     public void testDuplicatesRemoved() {
         // Make some points
         Pointiotnton[] points1 = new Pointiotnton[]{new Pointiotnton(0, 0), new Pointiotnton(3, 4), new Pointiotnton(3, 4), new Pointiotnton(5, 5)};
